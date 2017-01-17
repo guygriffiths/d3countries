@@ -1,30 +1,19 @@
-Skeleton project
-================
+D3 Capital Cities Force-Directed Graph
+======================================
 
 About
 -----
-This project is a skeleton ES6 project using JSPM.  It contains a sensible project layout and a basic configuration, from which other JS projects can start.
+This project is an example of using D3 to generate a force-directed graph
 
 Usage
 -----
-Clone the repository, change the required fields within package.json and then either change the git repository with:
 ```bash
-$ git remote set-url origin git@github.com:USERNAME/REPOSITORY.git
-```
-or simply remove it with
-```bash
-$ rm -Rf .git
+npm start
 ```
 
-You will need to install all of the Node and JSPM dependencies before doing anything else by running:
-```bash
-$ npm install
-```
+will start an HTTP server with the demo running.
 
-New JSPM packages can be added with:
-```bash
-$ jspm install [<alias>=]<packagename>
-```
+Each node represents a country.  Hovering over the node will give a tooltip with the country name.
 
 Building
 --------

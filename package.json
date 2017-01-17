@@ -1,7 +1,7 @@
 {
-  "name": "project-name-here",
+  "name": "d3countries",
   "version": "0.1.0",
-  "description": "Project description here",
+  "description": "Test project for D3.  Visualises distances between capital cities",
   "main": "public/js/main.js",
   "scripts": {
     "start": "http-server -p 8086 -c0",
@@ -27,7 +27,11 @@
   },
   "jspm": {
     "directories": {
-      "baseURL": "public"
+      "baseURL": "public",
+      "packages": "public/lib"
+    },
+    "dependencies": {
+      "d3": "npm:d3@^4.4.1"
     },
     "devDependencies": {
       "babel": "npm:babel-core@^5.8.24",
